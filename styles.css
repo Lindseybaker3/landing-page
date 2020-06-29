@@ -1,0 +1,106 @@
+/* Mobile First -------------------------------------------------------- */
+
+/* Base ----------------------------------------------------- */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "futura";
+}
+
+img{
+    width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Layout --------------------------------------------------- */
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Blocks --------------------------------------------------- */
+
+/* Background */
+.background-image__wrapper{
+    width: 60%;
+}
+
+.background-image{
+    position: absolute;
+    z-index: -1;
+    top: 100px;
+}
+
+/* Header */
+
+.header__logo__wrapper{
+    width: 15%;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 12%;
+}
+
+/* Hero */
+.hero-section__card__wrapper{
+    width: 75%;
+}
+
+
+/* Tablet Styles */
+@media(min-width: 550px){
+
+}
+
+@media(min-width: 700px){
+
+}
+
+@media(min-width: 550px){
+
+}
+
+/* Desktop Styles */
+@media(min-width: 950px){
+    
+/* Base */
+
+
+
+
+
+/* Layout */
+
+
+
+
+
+/* Blocks */
+
+
+
+
+}
