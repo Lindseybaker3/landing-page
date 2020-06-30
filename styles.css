@@ -69,6 +69,17 @@ a{
     width: 75%;
 }
 
+/* Feature Section */
+
+.features-section__card{
+    display: flex;
+}
+
+.features-section__card__image img{
+    max-height: 100px;
+    width: auto;
+}
+
 
 /* Tablet Styles */
 @media(min-width: 550px){
