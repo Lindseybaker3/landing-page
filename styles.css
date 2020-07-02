@@ -29,6 +29,7 @@ a{
 .header{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 30px;
 }
 
 .hero-section{
@@ -37,12 +38,24 @@ a{
     align-items: center;
 }
 
+.feature-section{
+
+}
+
+.product-section{
+    
+}
+
 
 /* Blocks --------------------------------------------------- */
 
+
+/* Header */
+
 /* Background */
 .background-image__wrapper{
-    width: 60%;
+    width: 100%;
+
 }
 
 .background-image{
@@ -50,11 +63,11 @@ a{
     z-index: -1;
     top: 100px;
 }
-
-/* Header */
-
 .header__logo__wrapper{
-    width: 15%;
+    width: 30%;
+    height: 75px;
+    display: flex;
+    align-items: center;
 }
 
 .header__nav{
@@ -62,11 +75,50 @@ a{
     justify-content: flex-start;
     position: relative;
     left: 12%;
+    display: none;
+}
+
+.header__hamburger-menu{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.bar {
+    display: inline-block;
+    height: 2px;
+    margin-top: 3px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.bar-1{
+    width: 30px;
+}
+
+.bar-2{
+    width: 30px;
+    position: relative
+    left: 5px;
 }
 
 /* Hero */
 .hero-section__card__wrapper{
     width: 75%;
+    position: relative;
+    
+}
+
+.hero-section__title h2{
+
+}
+
+.services-section__images__wrapper{
+    display: flex;
+    align-items: center;
 }
 
 /* Feature Section */
